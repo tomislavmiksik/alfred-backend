@@ -66,7 +66,12 @@
       "inversedBy": "users",
       "configurable": false
     },
-<<<<<<< HEAD
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
     "tasks": {
       "type": "relation",
       "relation": "oneToMany",
@@ -78,13 +83,6 @@
       "relation": "oneToMany",
       "target": "api::event.event",
       "mappedBy": "author"
-=======
-    "firstName": {
-      "type": "string"
-    },
-    "lastName": {
-      "type": "string"
->>>>>>> origin/main
     }
   }
 }
